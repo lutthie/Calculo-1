@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38929019-B5C7-4567-9D02-3643E22E5D1C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication3.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication3</RootNamespace>
+    <AssemblyName>WindowsApplication3</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ICO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>C:\Users\usuario\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.2.Core, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="intro.Designer.vb">
+      <DependentUpon>intro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="intro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.Designer.vb">
+      <DependentUpon>loading.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuprin.Designer.vb">
+      <DependentUpon>menuprin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menuprin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="t_0.Designer.vb">
+      <DependentUpon>t_0.vb</DependentUpon>
+    </Compile>
+    <Compile Include="t_0.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t_1.Designer.vb">
+      <DependentUpon>t_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="t_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t_2.Designer.vb">
+      <DependentUpon>t_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="t_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t_3.Designer.vb">
+      <DependentUpon>t_3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="t_3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t_4.Designer.vb">
+      <DependentUpon>t_4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="t_4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t_5.Designer.vb">
+      <DependentUpon>t_5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="t_5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="intro.resx">
+      <DependentUpon>intro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading.resx">
+      <DependentUpon>loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuprin.resx">
+      <DependentUpon>menuprin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t_0.resx">
+      <DependentUpon>t_0.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t_1.resx">
+      <DependentUpon>t_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t_2.resx">
+      <DependentUpon>t_2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t_3.resx">
+      <DependentUpon>t_3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t_4.resx">
+      <DependentUpon>t_4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t_5.resx">
+      <DependentUpon>t_5.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sencillo-verde-hd_113191970.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-pc-wallpapers-desktop-backgrounds-1080p-full-hd-download-high-definiton-wallpapers29-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_6858058-stock-illustration-cute-green-background-with-green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-green-numbers-background-in-matrix-style.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8a1c843f89993184678099d3b32b628e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\700_FO36279412_1c411b909cb12d7ceece4d8db7aea000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VID-20180408-WA0042.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICO.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

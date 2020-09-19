@@ -1,0 +1,10 @@
+Universidad Mariano Gálvez sede Villa Nueva
+Ingeniería en Sistemas "A"
+3er Ciclo
+
+Programa del curso Calculo I.
+Este programa calcula derivadas, incluye hasta 6 teoremas.
+
+Autores:
+Luisa Fernanda González Morataya
+Diego Alessandro Morales Morataya

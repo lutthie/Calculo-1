@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsApplication3
+</name>
+</assembly>
+<members>
+<member name="T:WindowsApplication3.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._0_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._1_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._2_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._3_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._4_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._5_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._6_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._7_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._700_FO36279412_1c411b909cb12d7ceece4d8db7aea000">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._8_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._8a1c843f89993184678099d3b32b628e">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources._9_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WindowsApplication3.My.Resources.Resources.VID_20180408_WA0042">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
